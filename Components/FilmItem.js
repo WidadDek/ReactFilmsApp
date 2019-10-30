@@ -1,5 +1,6 @@
 import React from 'react'
 import {StyleSheet, View,Image, Text} from 'react-native'
+import {getImageFromApi} from '../API/TMDBApi'
 
 class FilmItem extends React.Component{
   render(){
@@ -7,6 +8,7 @@ class FilmItem extends React.Component{
     return(
       <View style={styles.main_container}>
           <Image style={styles.img}
+          source={{uri:getImageFromApi(item.poster_path)}}
          //source={require('../react.png')}
           />
         <View style={styles.text_view}>
