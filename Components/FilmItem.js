@@ -1,10 +1,26 @@
 import React from 'react'
-import {StyleSheet, View,Image, Text, TouchableOpacity} from 'react-native'
+import {StyleSheet, View,Image, Text} from 'react-native'
 import {getImageFromApi} from '../API/TMDBApi'
+import { connect } from 'react-redux'
+import { TouchableOpacity } from 'react-native-gesture-handler'
 
 class FilmItem extends React.Component{
+    _displayFavoriteImage(){
+      var sourceImage = ''
+      if (this.props.isFilmFavorite){
+          //est favoris 
+          sourceImage = require('../Images/ic_favorite.png')
+          return (
+            <Image
+              style={styles.favorite_image}
+              source={sourceImage}
+            />)
+      }
+    }
+
   render(){
     const {film, displayDetailForFilm} = this.props
+
     return(
       <TouchableOpacity style={styles.main_container} onPress={() => displayDetailForFilm(film.id)}>
           <Image style={styles.img}
@@ -13,6 +29,9 @@ class FilmItem extends React.Component{
           />
         <View style={styles.text_view}>
             <View style={styles.header_view}>
+              <TouchableOpacity style={styles.favorite_container}>
+                  {this._displayFavoriteImage()}
+              </TouchableOpacity>
               <Text style={styles.titre_text}>{film.title}</Text>
               <Text style={styles.vote_text}>{film.vote_average}</Text>
             </View>
@@ -69,6 +88,14 @@ const styles=StyleSheet.create({
     flex:1,
     backgroundColor: 'red',
     alignItems:'flex-end'
+  },
+  favorite_container:{
+    alignItems:"center"
+  },
+  favorite_image: {
+    height: 40,
+    width: 40
   }
 })
+
 export default FilmItem
