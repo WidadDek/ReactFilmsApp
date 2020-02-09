@@ -1,5 +1,3 @@
-import { createStore } from 'redux'
+import { createStore } from 'redux';
 import toggleFavorite from './Reducers/favoriteReducer'
-
-
-export defaut createStore(toggleFavorite)
+export default createStore(toggleFavorite)
