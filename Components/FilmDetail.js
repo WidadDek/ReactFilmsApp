@@ -5,6 +5,7 @@ import { StyleSheet, View, Text, ActivityIndicator, ScrollView, Image } from 're
 import { getFilmDetailFromApi, getImageFromApi } from '../API/TMDBApi'
 import moment from 'moment'
 import numeral from 'numeral'
+import { connect } from 'react-redux'
 
 class FilmDetail extends React.Component {
   constructor(props) {
@@ -116,5 +117,10 @@ const styles = StyleSheet.create({
     marginTop: 5,
   }
 })
+const mapStateToProps = (state) => {
+  return {
+    favoritesFilm : state.favoritesFilm
+  }
 
-export default FilmDetail
+}
+export default connect(mapStateToProps)(FilmDetail)

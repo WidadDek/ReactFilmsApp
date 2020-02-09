@@ -17,3 +17,4 @@ function reducerProfil(state,action){
 
     return nextState
 }
+export default toggleFavorite
