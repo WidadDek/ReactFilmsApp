@@ -44,7 +44,7 @@ const SearchStackNavigator = createStackNavigator({
         }
       },
       Favorites: {
-        screen: FavoritesStackNavigator,
+        screen: Favorites,
         navigationOptions: {
           tabBarIcon: () => {
             return <Image
