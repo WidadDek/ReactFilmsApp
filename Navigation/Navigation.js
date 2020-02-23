@@ -6,6 +6,7 @@ import Search from '../Components/Search'
 import FilmDetail from '../Components/FilmDetail'
 import Favorites from '../Components/Favorites'
 import {StyleSheet, Image} from 'react-native'
+import Test from '../Components/Test'
 
 const SearchStackNavigator = createStackNavigator({
     Search: {
@@ -18,7 +19,7 @@ const SearchStackNavigator = createStackNavigator({
       screen: FilmDetail
     }
   })
-  
+
   const FavoritesStackNavigator = createStackNavigator({
     Favorites: {
       screen: Favorites,
@@ -52,6 +53,9 @@ const SearchStackNavigator = createStackNavigator({
               style={styles.icon}/>
           }
         }
+      },
+      Test: {
+        screen: Test
       }
     },
     {
