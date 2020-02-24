@@ -3,6 +3,7 @@
 import React from 'react'
 import { StyleSheet, View, Text, Share, ActivityIndicator, ScrollView, Image, TouchableOpacity, Platform } from 'react-native'
 import { getFilmDetailFromApi, getImageFromApi } from '../API/TMDBApi'
+import EnlargeShrink from '../Animations/EnlargeShrink'
 
 import moment from 'moment'
 import numeral from 'numeral'
@@ -33,6 +34,8 @@ class FilmDetail extends React.Component {
 
     //ne pas oublier de binder la fonction share film
     this._shareFilm = this._shareFilm.bind(this)
+    this._toggleFavorite = this._toggleFavorite.bind(this)
+
   }
 
   _shareFilm(){
@@ -100,16 +103,21 @@ class FilmDetail extends React.Component {
   }
 
   _displayFavoriteImage() {
+    var shouldEnlarge = false
     var sourceImage = require('../Images/ic_favorite_border.png')
     if (this.props.favoritesFilm.findIndex(item => item.id === this.state.film.id) !== -1) {
       // Film dans nos favoris
       sourceImage = require('../Images/ic_favorite.png')
+      shouldEnlarge = true
     }
     return (
-      <Image
-        style={styles.favorite_image}
-        source={sourceImage}
-      />
+      <EnlargeShrink
+          shouldEnlarge={shouldEnlarge}>
+          <Image
+            style={styles.favorite_image}
+            source={sourceImage}
+          />
+        </EnlargeShrink>
     )
   }
 
@@ -204,8 +212,9 @@ const styles = StyleSheet.create({
     marginTop: 5
   },
   favorite_image: {
-    width: 40,
-    height: 40
+    flex:1,
+    width: null,
+    height: null
   },
   share_touchable_floatingactionbutton: {
     position:"absolute",
