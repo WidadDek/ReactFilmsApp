@@ -3,6 +3,7 @@
 import React from 'react'
 import { StyleSheet, View, Text, Share, ActivityIndicator, ScrollView, Image, TouchableOpacity, Platform } from 'react-native'
 import { getFilmDetailFromApi, getImageFromApi } from '../API/TMDBApi'
+
 import moment from 'moment'
 import numeral from 'numeral'
 import { connect } from 'react-redux'

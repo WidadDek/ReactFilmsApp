@@ -3,7 +3,7 @@ import {StyleSheet, View,Image, Text} from 'react-native'
 import {getImageFromApi} from '../API/TMDBApi'
 import { connect } from 'react-redux'
 import { TouchableOpacity } from 'react-native-gesture-handler'
-
+import FadeIn from '../Animations/FadeIn'
 class FilmItem extends React.Component{
     _displayFavoriteImage(){
       var sourceImage = ''
@@ -22,27 +22,29 @@ class FilmItem extends React.Component{
     const {film, displayDetailForFilm} = this.props
 
     return(
-      <TouchableOpacity style={styles.main_container} onPress={() => displayDetailForFilm(film.id)}>
-          <Image style={styles.img}
-          source={{uri:getImageFromApi(film.poster_path)}}
-         //source={require('../react.png')}
-          />
-        <View style={styles.text_view}>
-            <View style={styles.header_view}>
-              <TouchableOpacity style={styles.favorite_container}>
-                  {this._displayFavoriteImage()}
-              </TouchableOpacity>
-              <Text style={styles.titre_text}>{film.title}</Text>
-              <Text style={styles.vote_text}>{film.vote_average}</Text>
+        <FadeIn>
+          <TouchableOpacity style={styles.main_container} onPress={() => displayDetailForFilm(film.id)}>
+              <Image style={styles.img}
+              source={{uri:getImageFromApi(film.poster_path)}}
+            //source={require('../react.png')}
+              />
+            <View style={styles.text_view}>
+                <View style={styles.header_view}>
+                  <TouchableOpacity style={styles.favorite_container}>
+                      {this._displayFavoriteImage()}
+                  </TouchableOpacity>
+                  <Text style={styles.titre_text}>{film.title}</Text>
+                  <Text style={styles.vote_text}>{film.vote_average}</Text>
+                </View>
+                <View style={styles.description_text}>
+                  <Text numberOfLines={5}>{film.overview}</Text>
+                </View>
+                <View style={styles.date_text}>
+                  <Text>{film.release_date}</Text>
+                </View>
             </View>
-            <View style={styles.description_text}>
-              <Text numberOfLines={5}>{film.overview}</Text>
-            </View>
-            <View style={styles.date_text}>
-              <Text>{film.release_date}</Text>
-            </View>
-        </View>
-      </TouchableOpacity>
+          </TouchableOpacity>
+       </FadeIn>
     )
   }
 }
