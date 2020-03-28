@@ -34,22 +34,22 @@ const SearchStackNavigator = createStackNavigator({
   
   const MoviesTabNavigator = createBottomTabNavigator(
     {
-      Search: {
-        screen: SearchStackNavigator,
-        navigationOptions: {
-          tabBarIcon: () => {
-            return <Image
-              source={require('../Images/ic_search.png')}
-              style={styles.icon}/>
-          }
-        }
-      },
       Favorites: {
         screen: Favorites,
         navigationOptions: {
           tabBarIcon: () => {
             return <Image
               source={require('../Images/ic_favorite.png')}
+              style={styles.icon}/>
+          }
+        }
+      },
+      Search: {
+        screen: SearchStackNavigator,
+        navigationOptions: {
+          tabBarIcon: () => {
+            return <Image
+              source={require('../Images/ic_search.png')}
               style={styles.icon}/>
           }
         }

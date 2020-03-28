@@ -3,6 +3,7 @@ package com.moviesandme;
 import android.app.Application;
 
 import com.facebook.react.ReactApplication;
+import com.imagepicker.ImagePickerPackage;
 import com.th3rdwave.safeareacontext.SafeAreaContextPackage;
 import org.reactnative.maskedview.RNCMaskedViewPackage;
 import com.facebook.react.ReactNativeHost;
@@ -42,6 +43,7 @@ public class MainApplication extends Application implements ReactApplication {
     protected List<ReactPackage> getPackages() {
       return Arrays.<ReactPackage>asList(
           new MainReactPackage(),
+            new ImagePickerPackage(),
             new SafeAreaContextPackage(),
             new RNCMaskedViewPackage(),
           new ReanimatedPackage(),

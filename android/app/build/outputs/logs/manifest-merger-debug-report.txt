@@ -4,6 +4,7 @@ ADDED from C:\Users\DELL\Documents\GitHub\ReactFilmsApp\android\app\src\main\And
 INJECTED from C:\Users\DELL\Documents\GitHub\ReactFilmsApp\android\app\src\main\AndroidManifest.xml:1:1-48:12
 INJECTED from C:\Users\DELL\Documents\GitHub\ReactFilmsApp\android\app\src\main\AndroidManifest.xml:1:1-48:12
 INJECTED from C:\Users\DELL\Documents\GitHub\ReactFilmsApp\android\app\src\main\AndroidManifest.xml:1:1-48:12
+MERGED from [:react-native-image-picker] C:\Users\DELL\Documents\GitHub\ReactFilmsApp\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-21:12
 MERGED from [:react-native-safe-area-context] C:\Users\DELL\Documents\GitHub\ReactFilmsApp\node_modules\react-native-safe-area-context\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-9:12
 MERGED from [:@react-native-community_masked-view] C:\Users\DELL\Documents\GitHub\ReactFilmsApp\node_modules\@react-native-community\masked-view\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-screens] C:\Users\DELL\Documents\GitHub\ReactFilmsApp\node_modules\react-native-screens\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
@@ -46,6 +47,7 @@ MERGED from [androidx.fragment:fragment:1.2.1] C:\Users\DELL\.gradle\caches\tran
 MERGED from [androidx.browser:browser:1.0.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\browser-1.0.0.aar\af73ce08b4d1d02a30136fc9515e9264\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\legacy-support-core-ui-1.0.0.aar\228d9c3ab981a65b49779a9f3a308a7c\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-1.1.0.aar\490a76278e8ce925a3cbc0e7374e33c4\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-1.0.0.aar\6690304a1ad86b4dd9c4de021d536dbb\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.transition:transition:1.2.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\transition-1.2.0.aar\0943e445b30ccb4942e26bd2ddf57ef7\AndroidManifest.xml:17:1-24:12
 MERGED from [com.facebook.fresco:fresco:1.10.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\jetified-fresco-1.10.0.aar\132dae5c23d3c4d36681d8342c45864a\AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\imagepipeline-okhttp3-1.10.0.aar\9d98f455679b052e285366562f98a4d1\AndroidManifest.xml:2:1-9:12
@@ -66,15 +68,14 @@ MERGED from [androidx.customview:customview:1.0.0] C:\Users\DELL\.gradle\caches\
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\vectordrawable-animated-1.1.0.aar\8a740b2f068830a5f9f461689440a3d8\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\vectordrawable-1.1.0.aar\ab149847f91b2b772d0f4b1f35e901a4\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.media:media:1.0.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\media-1.0.0.aar\494119b335a02c192fa488156cd3bae2\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-1.0.0.aar\6690304a1ad86b4dd9c4de021d536dbb\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-1.0.0.aar\6c6da7803a307e4beaee5fed7564df94\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.core:core:1.1.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\core-1.1.0.aar\e6c9a256f371a1ebeaf0eb0d536f3bb1\AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\cursoradapter-1.0.0.aar\b0cb8b3f09fc1f3f561a9fac34a26a8c\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.1.0.aar\a2db3725ad1679c3c72740ca8faee262\AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\lifecycle-viewmodel-savedstate-2.2.0.aar\6c448f18a76c1848b27640a1ce64e40d\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\lifecycle-viewmodel-2.2.0.aar\3295c9723e1fcd3d9884f7b8ca2337b7\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\cardview-1.0.0.aar\ca86a7d474398ddddde78e2192d5d9d4\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\interpolator-1.0.0.aar\f4cf914042793e37881d3faedab3698f\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\cardview-1.0.0.aar\ca86a7d474398ddddde78e2192d5d9d4\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\lifecycle-runtime-2.2.0.aar\0297ba295c32262b8516c49a00ddade8\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\savedstate-1.0.0.aar\1f83f368ee7cbb0bf08764b3b184c75f\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-2.0.0.aar\c8cd80cae351668cf51059489b4d73aa\AndroidManifest.xml:17:1-22:12
@@ -190,6 +191,8 @@ ADDED from C:\Users\DELL\Documents\GitHub\ReactFilmsApp\android\app\src\main\And
 		ADDED from C:\Users\DELL\Documents\GitHub\ReactFilmsApp\android\app\src\main\AndroidManifest.xml:25:22-70
 application
 ADDED from C:\Users\DELL\Documents\GitHub\ReactFilmsApp\android\app\src\main\AndroidManifest.xml:28:5-46:19
+MERGED from [:react-native-image-picker] C:\Users\DELL\Documents\GitHub\ReactFilmsApp\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-19:19
+MERGED from [:react-native-image-picker] C:\Users\DELL\Documents\GitHub\ReactFilmsApp\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-19:19
 MERGED from [com.facebook.react:react-native:0.59.10] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\jetified-react-native-0.59.10.aar\82f7287a16b3655aea0c702ef1d4340a\AndroidManifest.xml:11:5-20
 MERGED from [com.facebook.react:react-native:0.59.10] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\jetified-react-native-0.59.10.aar\82f7287a16b3655aea0c702ef1d4340a\AndroidManifest.xml:11:5-20
 MERGED from [com.google.android.material:material:1.1.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\material-1.1.0.aar\9c89b0c0d738edcc33593cdbcd1a13f5\AndroidManifest.xml:22:5-20
@@ -262,6 +265,8 @@ uses-sdk
 INJECTED from C:\Users\DELL\Documents\GitHub\ReactFilmsApp\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\DELL\Documents\GitHub\ReactFilmsApp\android\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\DELL\Documents\GitHub\ReactFilmsApp\android\app\src\main\AndroidManifest.xml
+MERGED from [:react-native-image-picker] C:\Users\DELL\Documents\GitHub\ReactFilmsApp\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-image-picker] C:\Users\DELL\Documents\GitHub\ReactFilmsApp\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-safe-area-context] C:\Users\DELL\Documents\GitHub\ReactFilmsApp\node_modules\react-native-safe-area-context\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-safe-area-context] C:\Users\DELL\Documents\GitHub\ReactFilmsApp\node_modules\react-native-safe-area-context\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [:@react-native-community_masked-view] C:\Users\DELL\Documents\GitHub\ReactFilmsApp\node_modules\@react-native-community\masked-view\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
@@ -346,6 +351,8 @@ MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\DELL\.gradle
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\legacy-support-core-ui-1.0.0.aar\228d9c3ab981a65b49779a9f3a308a7c\AndroidManifest.xml:20:5-44
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-1.1.0.aar\490a76278e8ce925a3cbc0e7374e33c4\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-1.1.0.aar\490a76278e8ce925a3cbc0e7374e33c4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-1.0.0.aar\6690304a1ad86b4dd9c4de021d536dbb\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-1.0.0.aar\6690304a1ad86b4dd9c4de021d536dbb\AndroidManifest.xml:20:5-44
 MERGED from [androidx.transition:transition:1.2.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\transition-1.2.0.aar\0943e445b30ccb4942e26bd2ddf57ef7\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.transition:transition:1.2.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\transition-1.2.0.aar\0943e445b30ccb4942e26bd2ddf57ef7\AndroidManifest.xml:20:5-22:41
 MERGED from [com.facebook.fresco:fresco:1.10.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\jetified-fresco-1.10.0.aar\132dae5c23d3c4d36681d8342c45864a\AndroidManifest.xml:5:5-7:41
@@ -386,8 +393,6 @@ MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\DELL\.gradle
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\vectordrawable-1.1.0.aar\ab149847f91b2b772d0f4b1f35e901a4\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.media:media:1.0.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\media-1.0.0.aar\494119b335a02c192fa488156cd3bae2\AndroidManifest.xml:20:5-44
 MERGED from [androidx.media:media:1.0.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\media-1.0.0.aar\494119b335a02c192fa488156cd3bae2\AndroidManifest.xml:20:5-44
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-1.0.0.aar\6690304a1ad86b4dd9c4de021d536dbb\AndroidManifest.xml:20:5-44
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-1.0.0.aar\6690304a1ad86b4dd9c4de021d536dbb\AndroidManifest.xml:20:5-44
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-1.0.0.aar\6c6da7803a307e4beaee5fed7564df94\AndroidManifest.xml:20:5-44
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-1.0.0.aar\6c6da7803a307e4beaee5fed7564df94\AndroidManifest.xml:20:5-44
 MERGED from [androidx.core:core:1.1.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\core-1.1.0.aar\e6c9a256f371a1ebeaf0eb0d536f3bb1\AndroidManifest.xml:20:5-22:41
@@ -400,10 +405,10 @@ MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] C:\Users\D
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\lifecycle-viewmodel-savedstate-2.2.0.aar\6c448f18a76c1848b27640a1ce64e40d\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\lifecycle-viewmodel-2.2.0.aar\3295c9723e1fcd3d9884f7b8ca2337b7\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\lifecycle-viewmodel-2.2.0.aar\3295c9723e1fcd3d9884f7b8ca2337b7\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\cardview-1.0.0.aar\ca86a7d474398ddddde78e2192d5d9d4\AndroidManifest.xml:20:5-44
-MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\cardview-1.0.0.aar\ca86a7d474398ddddde78e2192d5d9d4\AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\interpolator-1.0.0.aar\f4cf914042793e37881d3faedab3698f\AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\interpolator-1.0.0.aar\f4cf914042793e37881d3faedab3698f\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\cardview-1.0.0.aar\ca86a7d474398ddddde78e2192d5d9d4\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\cardview-1.0.0.aar\ca86a7d474398ddddde78e2192d5d9d4\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\lifecycle-runtime-2.2.0.aar\0297ba295c32262b8516c49a00ddade8\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\lifecycle-runtime-2.2.0.aar\0297ba295c32262b8516c49a00ddade8\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\savedstate-1.0.0.aar\1f83f368ee7cbb0bf08764b3b184c75f\AndroidManifest.xml:20:5-22:41
@@ -434,6 +439,22 @@ INJECTED from C:\Users\DELL\Documents\GitHub\ReactFilmsApp\android\app\src\main\
 		INJECTED from C:\Users\DELL\Documents\GitHub\ReactFilmsApp\android\app\src\main\AndroidManifest.xml
 		ADDED from C:\Users\DELL\Documents\GitHub\ReactFilmsApp\android\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\DELL\Documents\GitHub\ReactFilmsApp\android\app\src\main\AndroidManifest.xml
+provider#com.imagepicker.FileProvider
+ADDED from [:react-native-image-picker] C:\Users\DELL\Documents\GitHub\ReactFilmsApp\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:10:9-18:20
+	android:grantUriPermissions
+		ADDED from [:react-native-image-picker] C:\Users\DELL\Documents\GitHub\ReactFilmsApp\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-47
+	android:authorities
+		ADDED from [:react-native-image-picker] C:\Users\DELL\Documents\GitHub\ReactFilmsApp\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:13-60
+	android:exported
+		ADDED from [:react-native-image-picker] C:\Users\DELL\Documents\GitHub\ReactFilmsApp\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-37
+	android:name
+		ADDED from [:react-native-image-picker] C:\Users\DELL\Documents\GitHub\ReactFilmsApp\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-56
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:react-native-image-picker] C:\Users\DELL\Documents\GitHub\ReactFilmsApp\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-17:58
+	android:resource
+		ADDED from [:react-native-image-picker] C:\Users\DELL\Documents\GitHub\ReactFilmsApp\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:17-55
+	android:name
+		ADDED from [:react-native-image-picker] C:\Users\DELL\Documents\GitHub\ReactFilmsApp\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:17-67
 uses-permission#android.permission.STORAGE
 ADDED from [:expo-file-system] C:\Users\DELL\Documents\GitHub\ReactFilmsApp\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:5-66
 	android:name
@@ -450,12 +471,6 @@ ADDED from [:expo-file-system] C:\Users\DELL\Documents\GitHub\ReactFilmsApp\node
 		ADDED from [:expo-file-system] C:\Users\DELL\Documents\GitHub\ReactFilmsApp\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:23:13-48
 	android:name
 		ADDED from [:expo-file-system] C:\Users\DELL\Documents\GitHub\ReactFilmsApp\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:13-74
-meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from [:expo-file-system] C:\Users\DELL\Documents\GitHub\ReactFilmsApp\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:24:13-26:70
-	android:resource
-		ADDED from [:expo-file-system] C:\Users\DELL\Documents\GitHub\ReactFilmsApp\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:26:17-67
-	android:name
-		ADDED from [:expo-file-system] C:\Users\DELL\Documents\GitHub\ReactFilmsApp\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:25:17-67
 uses-permission#android.permission.FOREGROUND_SERVICE
 ADDED from [:expo-location] C:\Users\DELL\Documents\GitHub\ReactFilmsApp\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-77
 	android:name
